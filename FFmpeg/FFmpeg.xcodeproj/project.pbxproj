@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		444E63DE1B7C6FC700656A8D /* KxAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E63D41B7C6FC700656A8D /* KxAudioManager.m */; };
+		444E63DF1B7C6FC700656A8D /* kxmovie.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 444E63D71B7C6FC700656A8D /* kxmovie.bundle */; };
+		444E63E01B7C6FC700656A8D /* KxMovieDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E63D91B7C6FC700656A8D /* KxMovieDecoder.m */; };
+		444E63E11B7C6FC700656A8D /* KxMovieGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E63DB1B7C6FC700656A8D /* KxMovieGLView.m */; };
+		444E63E21B7C6FC700656A8D /* KxMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E63DD1B7C6FC700656A8D /* KxMovieViewController.m */; };
+		444E63E41B7C707200656A8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444E63E31B7C707200656A8D /* UIKit.framework */; };
+		444E63E61B7C707A00656A8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444E63E51B7C707A00656A8D /* Foundation.framework */; };
 		44CA9DBD1B4E96CD00FE7452 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9DBC1B4E96CD00FE7452 /* main.m */; };
 		44CA9DC01B4E96CD00FE7452 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9DBF1B4E96CD00FE7452 /* AppDelegate.m */; };
 		44CA9DC31B4E96CD00FE7452 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9DC21B4E96CD00FE7452 /* ViewController.m */; };
@@ -23,10 +30,22 @@
 		44CA9E581B4E9B7100FE7452 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CA9E571B4E9B7100FE7452 /* libz.dylib */; };
 		44CA9E5A1B4E9B9B00FE7452 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CA9E591B4E9B9B00FE7452 /* libbz2.dylib */; };
 		44CA9E5C1B4E9BA400FE7452 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CA9E5B1B4E9BA400FE7452 /* libiconv.dylib */; };
-		44CA9E5F1B4F62BF00FE7452 /* WFFFmpegWraper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA9E5E1B4F62BF00FE7452 /* WFFFmpegWraper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		444E63D31B7C6FC700656A8D /* KxAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxAudioManager.h; sourceTree = "<group>"; };
+		444E63D41B7C6FC700656A8D /* KxAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxAudioManager.m; sourceTree = "<group>"; };
+		444E63D51B7C6FC700656A8D /* KxLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxLogger.h; sourceTree = "<group>"; };
+		444E63D61B7C6FC700656A8D /* kxmovie-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "kxmovie-Prefix.pch"; sourceTree = "<group>"; };
+		444E63D71B7C6FC700656A8D /* kxmovie.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = kxmovie.bundle; sourceTree = "<group>"; };
+		444E63D81B7C6FC700656A8D /* KxMovieDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMovieDecoder.h; sourceTree = "<group>"; };
+		444E63D91B7C6FC700656A8D /* KxMovieDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMovieDecoder.m; sourceTree = "<group>"; };
+		444E63DA1B7C6FC700656A8D /* KxMovieGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMovieGLView.h; sourceTree = "<group>"; };
+		444E63DB1B7C6FC700656A8D /* KxMovieGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMovieGLView.m; sourceTree = "<group>"; };
+		444E63DC1B7C6FC700656A8D /* KxMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMovieViewController.h; sourceTree = "<group>"; };
+		444E63DD1B7C6FC700656A8D /* KxMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMovieViewController.m; sourceTree = "<group>"; };
+		444E63E31B7C707200656A8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		444E63E51B7C707A00656A8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44CA9DB71B4E96CD00FE7452 /* FFmpeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFmpeg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CA9DBB1B4E96CD00FE7452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44CA9DBC1B4E96CD00FE7452 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -140,8 +159,6 @@
 		44CA9E571B4E9B7100FE7452 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		44CA9E591B4E9B9B00FE7452 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
 		44CA9E5B1B4E9BA400FE7452 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
-		44CA9E5D1B4F62BF00FE7452 /* WFFFmpegWraper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFFFmpegWraper.h; sourceTree = "<group>"; };
-		44CA9E5E1B4F62BF00FE7452 /* WFFFmpegWraper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFFFmpegWraper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +166,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444E63E61B7C707A00656A8D /* Foundation.framework in Frameworks */,
+				444E63E41B7C707200656A8D /* UIKit.framework in Frameworks */,
 				44CA9E5C1B4E9BA400FE7452 /* libiconv.dylib in Frameworks */,
 				44CA9E5A1B4E9B9B00FE7452 /* libbz2.dylib in Frameworks */,
 				44CA9E581B4E9B7100FE7452 /* libz.dylib in Frameworks */,
@@ -165,6 +184,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		444E63D21B7C6FC700656A8D /* kxmovie */ = {
+			isa = PBXGroup;
+			children = (
+				444E63D31B7C6FC700656A8D /* KxAudioManager.h */,
+				444E63D41B7C6FC700656A8D /* KxAudioManager.m */,
+				444E63D51B7C6FC700656A8D /* KxLogger.h */,
+				444E63D61B7C6FC700656A8D /* kxmovie-Prefix.pch */,
+				444E63D71B7C6FC700656A8D /* kxmovie.bundle */,
+				444E63D81B7C6FC700656A8D /* KxMovieDecoder.h */,
+				444E63D91B7C6FC700656A8D /* KxMovieDecoder.m */,
+				444E63DA1B7C6FC700656A8D /* KxMovieGLView.h */,
+				444E63DB1B7C6FC700656A8D /* KxMovieGLView.m */,
+				444E63DC1B7C6FC700656A8D /* KxMovieViewController.h */,
+				444E63DD1B7C6FC700656A8D /* KxMovieViewController.m */,
+			);
+			path = kxmovie;
+			sourceTree = "<group>";
+		};
 		44CA9DAE1B4E96CD00FE7452 = {
 			isa = PBXGroup;
 			children = (
@@ -191,7 +228,7 @@
 				44CA9DC41B4E96CD00FE7452 /* Main.storyboard */,
 				44CA9DC71B4E96CD00FE7452 /* Images.xcassets */,
 				44CA9DC91B4E96CD00FE7452 /* LaunchScreen.xib */,
-				44CA9E551B4E992600FE7452 /* FFmpegWraper */,
+				444E63D21B7C6FC700656A8D /* kxmovie */,
 				44CA9DE01B4E98ED00FE7452 /* FFmpeg-iOS */,
 				44CA9E561B4E9A1D00FE7452 /* FrameWork */,
 				44CA9DBA1B4E96CD00FE7452 /* Supporting Files */,
@@ -387,18 +424,11 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
-		44CA9E551B4E992600FE7452 /* FFmpegWraper */ = {
-			isa = PBXGroup;
-			children = (
-				44CA9E5D1B4F62BF00FE7452 /* WFFFmpegWraper.h */,
-				44CA9E5E1B4F62BF00FE7452 /* WFFFmpegWraper.m */,
-			);
-			path = FFmpegWraper;
-			sourceTree = "<group>";
-		};
 		44CA9E561B4E9A1D00FE7452 /* FrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				444E63E51B7C707A00656A8D /* Foundation.framework */,
+				444E63E31B7C707200656A8D /* UIKit.framework */,
 				44CA9E5B1B4E9BA400FE7452 /* libiconv.dylib */,
 				44CA9E591B4E9B9B00FE7452 /* libbz2.dylib */,
 				44CA9E571B4E9B7100FE7452 /* libz.dylib */,
@@ -464,6 +494,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44CA9DC61B4E96CD00FE7452 /* Main.storyboard in Resources */,
+				444E63DF1B7C6FC700656A8D /* kxmovie.bundle in Resources */,
 				44CA9DCB1B4E96CD00FE7452 /* LaunchScreen.xib in Resources */,
 				44CA9DC81B4E96CD00FE7452 /* Images.xcassets in Resources */,
 			);
@@ -476,9 +507,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444E63DE1B7C6FC700656A8D /* KxAudioManager.m in Sources */,
 				44CA9DC31B4E96CD00FE7452 /* ViewController.m in Sources */,
 				44CA9DC01B4E96CD00FE7452 /* AppDelegate.m in Sources */,
-				44CA9E5F1B4F62BF00FE7452 /* WFFFmpegWraper.m in Sources */,
+				444E63E21B7C6FC700656A8D /* KxMovieViewController.m in Sources */,
+				444E63E11B7C6FC700656A8D /* KxMovieGLView.m in Sources */,
+				444E63E01B7C6FC700656A8D /* KxMovieDecoder.m in Sources */,
 				44CA9DBD1B4E96CD00FE7452 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
